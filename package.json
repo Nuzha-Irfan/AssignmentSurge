@@ -1,0 +1,13 @@
+{
+  "name": "surgeassignment",
+  "version": "1.0.0",
+  "description": "Assignment for surge",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server",
+    "frontend": "npm start --prefix frontend"
+  },
+  "author": "Nuzha Irfan",
+  "license": "MIT"
+}
