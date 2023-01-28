@@ -1,0 +1,4 @@
+{
+   "mongoURI": "mongodb+srv://nuzha:nuzha123@instagramsurge.gpkjemz.mongodb.net/?retryWrites=true&w=majority",
+   "jwtSecret":"mysecrettoken"
+}
