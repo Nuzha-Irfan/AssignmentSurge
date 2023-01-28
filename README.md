@@ -13,5 +13,5 @@ Surge Assignment application using MERN stack
  
 #Run Command  the root folder in terminal 
 
-->.npm run dev to concurrently run both the frontend and backend
+ 5. npm run dev to concurrently run both the frontend and backend
  
