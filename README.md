@@ -11,7 +11,7 @@ Surge Assignment application using MERN stack
 3. cd client 
 4.  npm i to install the front end packages
  
-#Run Command  the root folder in terminal 
+#Run Command  from  the root folder in terminal 
 
  5. npm run dev to concurrently run both the frontend and backend
  
