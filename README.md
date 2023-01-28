@@ -13,7 +13,8 @@ Surge Assignment application using MERN stack
 
 
 #To check tests
-5.npm run tests
+
+ 5.npm run tests
  
 #Run Command  from  the root folder in terminal 
 
