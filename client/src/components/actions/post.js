@@ -1,18 +1,17 @@
 
 import { setAlert } from './alert';
-import setAuthToken from '../../utils/setAuthToken';
+
 import axios from "axios";
 import {
   GET_POSTS,
   POST_ERROR,
   UPDATE_LIKES,
-  DELETE_POST,
+
   ADD_POST,
   GET_POST,
-  ADD_COMMENT,
-  USER_LOADED,
-  AUTH_ERROR,
-  REMOVE_COMMENT
+ 
+
+ ]
 } from './types';
 
 import Swal from 'sweetalert2';
