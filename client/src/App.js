@@ -8,7 +8,7 @@ import PostForm from './components/posts/addPost';
 import Posts from './components/posts/Posts';
 import store from './store';
 import { loadUser } from './components/actions/auth';
-import { connect, Provider } from 'react-redux';
+import {  Provider } from 'react-redux';
 import {
   BrowserRouter as Router,
   Routes,
