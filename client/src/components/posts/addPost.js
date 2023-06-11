@@ -12,24 +12,24 @@ const PostForm = ({ addPost}) => {
     
    
   });
-      const [url,setUrl] = useState("")
+//       const [url,setUrl] = useState("")
 
    
       const { id } = useParams();
 
 
-      const { title, body, photo} = formData;
+//       const { title, body, photo} = formData;
 
-      const onChange = (e) =>
-        setFormData({ ...formData, [e.target.name]: e.target.value });
+//       const onChange = (e) =>
+//         setFormData({ ...formData, [e.target.name]: e.target.value });
     
-        const onSubmit = async (e) => {
-            e.preventDefault();
+//         const onSubmit = async (e) => {
+//             e.preventDefault();
            
-              console.log(url);
-              addPost({id,formData});
+//               console.log(url);
+//               addPost({id,formData});
             
-          };
+//           };
 
 //           const postDetails = ()=>{
 //             const data = new FormData()
