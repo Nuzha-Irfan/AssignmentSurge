@@ -18,7 +18,7 @@ const Posts = ({ getPosts, post: { posts } ,getUserByID, auth: { user }}) => {
       
 
       <nav className='navi'> 
-      <img src={user && user.avatar} style={{ borderRadius: '60%' }}></img>
+      <img src={user && user.avatar} style={{ borderRadius: '60%' }} alt="avatar"></img>
       <h2 style={{textAlign:'center' ,fontFamily:'monospace'}}>{user && user.name}</h2>
       <h2 style={{textAlign:'center'  }}> {user && user.userName}</h2>
        
