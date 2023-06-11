@@ -1,5 +1,5 @@
 import setAuthToken from '../../utils/setAuthToken';
-import { setAlert } from './alert';
+
 import axios from "axios";
 import {
   REGISTER_SUCCESS,
