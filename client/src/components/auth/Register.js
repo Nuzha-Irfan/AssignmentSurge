@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import { connect } from 'react-redux';
-import { Link, Navigate } from 'react-router-dom';
+import { Navigate } from 'react-router-dom';
 import { setAlert } from '../actions/alert';
 import { register } from '../actions/auth';
 import PropTypes from 'prop-types';
-import M from 'materialize-css'
+
 import Swal from 'sweetalert2';
 import ReCAPTCHA from 'react-google-recaptcha';
 const Register = ({ setAlert, register, isAuthenticated }) => {
