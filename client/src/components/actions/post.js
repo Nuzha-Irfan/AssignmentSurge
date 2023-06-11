@@ -11,7 +11,7 @@ import {
   GET_POST,
  
 
- ]
+ 
 } from './types';
 
 import Swal from 'sweetalert2';
