@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { addPost } from '../actions/post';
-import { Link, useParams, useNavigate } from 'react-router-dom';
+import {  useParams} from 'react-router-dom';
 
 const PostForm = ({ addPost}) => {
   const [formData, setFormData] = useState({
@@ -31,25 +31,25 @@ const PostForm = ({ addPost}) => {
             
           };
 
-          const postDetails = ()=>{
-            const data = new FormData()
-            data.append("file",photo)
-            data.append("upload_preset","surgeCloud")
-            data.append("cloud_name","dxxnc0sqz")
-            fetch("https://api.cloudinary.com/v1_1/dxxnc0sqz/photo/upload",{
-                method:"post",
-                body:data
-            })
-            .then(res=>res.json())
-            .then(data=>{
-               setUrl(data.url)
-            })
-            .catch(err=>{
-                console.log(err)
-            })
+//           const postDetails = ()=>{
+//             const data = new FormData()
+//             data.append("file",photo)
+//             data.append("upload_preset","surgeCloud")
+//             data.append("cloud_name","dxxnc0sqz")
+//             fetch("https://api.cloudinary.com/v1_1/dxxnc0sqz/photo/upload",{
+//                 method:"post",
+//                 body:data
+//             })
+//             .then(res=>res.json())
+//             .then(data=>{
+//                setUrl(data.url)
+//             })
+//             .catch(err=>{
+//                 console.log(err)
+//             })
      
          
-        }
+//         }
         
 
   return (
