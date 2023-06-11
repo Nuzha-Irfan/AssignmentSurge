@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import { logout } from '../actions/auth';
-import M from 'materialize-css'
+
 const Navbar = ({ auth: { isAuthenticated }, logout }) => {
   const authLinks = (
     <ul className="nobull">
