@@ -1,11 +1,11 @@
 import React, { Fragment } from 'react';
 import PropTypes from 'prop-types';
-import { Link } from 'react-router-dom';
+
 
 import { connect } from 'react-redux';
 import { addLike, removeLike } from '../actions/post';
-import moment from 'react-moment'
-import { getUserByID } from '../actions/auth';
+
+
 function formatDate(date) {
    var date1=new Date(date);
   var date2=new Date();
